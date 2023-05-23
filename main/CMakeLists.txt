@@ -6,5 +6,5 @@
 #set(COMPONENT_ADD_INCLUDEDIRS "")
 #
 #register_component()
-idf_component_register(SRCS main.c rgb_led.c
+idf_component_register(SRCS main.c rgb_led.c wifi_app.c
 						INCLUDE_DIRS ".")
